@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "docsify-auto-sidebar -d ../*name-of-repo*"
+    "test": "docsify-auto-sidebar -d ../test-sidebar-docsify-open-course-starter-kit"
   },
   "keywords": [],
   "author": "",
