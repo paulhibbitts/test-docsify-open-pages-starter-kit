@@ -29,14 +29,14 @@ jobs:
       - name: Build sidebar
         env:
           DOCSIFY_BASEPATH: 'docs/'
-          DOCSIFY_SIDEBAR_FILENAEM: '_sidebar.md'
+          DOCSIFY_SIDEBAR_FILENAME: '_sidebar.md'
         run: |
-          if [ -e "${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAEM}" ]; then
-            rm -rf ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAEM}
+          if [ -e "${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAME}" ]; then
+            rm -rf ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAME}
           fi
-          docsify generate ${DOCSIFY_BASEPATH} --sidebar ${DOCSIFY_SIDEBAR_FILENAEM}
+          docsify generate ${DOCSIFY_BASEPATH} --sidebar ${DOCSIFY_SIDEBAR_FILENAME}
           git status
-          cat ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAEM}
+          cat ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAME}
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
