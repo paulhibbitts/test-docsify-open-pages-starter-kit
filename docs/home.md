@@ -1,19 +1,34 @@
-> # What’s Happening This Week
-> ## How to explore the problem space?
-> ### Important Reminders
-> * [Journey Map](#) assignment <span class='badge'> Tue Jun 12th 11:59pm PDT</span>
-> * [Course Reflection Log](#) assignment <span class='badge'> Fri Aug 3rd 11:59pm PDT</span>
->
-> ### Required Reading
-> * [The Skeptic’s Guide To Low-Fidelity Prototyping](https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/)
->
-> [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button')
+# Docsify Open Pages Starter Kit
 
-# Looking Ahead to Next Week
-## How to plan, conduct, and summarize usability tests?
-### Week 5 Required Reading
-<a class="embedly-card" data-card-controls="0" data-card-align="left" href="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/">The Art of Guerrilla Usability Testing | UX Booth</a>
+> This is a starter kit to quickly create a collection of Markdown-based pages with the site generator [Docsify](https://docsify.js.org). Sidebar navigation items are automatically generated, and can be hidden for seamlessly embedding pages (i.e., into an LMS) or displaying only page content in the current Browser tab. Includes an optional "Edit this Page" link.
 
+🖼 Embedding your Docsify Page Content into Other Systems
+---  
 
-### Week 5 Slides to be Discussed
-[Usability Testing](https://www.google.ca/slides/about/)
+The optional ‘embedded’ (all lowercase) URL parameter hides a site’s sidebar and optional navbar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams etc.
+
+To only display Docsify page content, add the following to a Docsify page URL:
+
+`?embedded=true`
+
+For example, https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true would only display page content (i.e., no sidebar or optional navbar is shown).
+
+To optionally hide the 'Edit this Page' link, use the following:
+
+`?embedded=true&hidegitlink=true`
+
+For example, https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true would only display page content (i.e., no sidebar or optional navbar is shown) and also hide the 'Edit this Page' link.
+
+📚 Docsify and Markdown Resources
+---
+**Docsify**  
+[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
+[Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
+
+**Docsify Themable**  
+[Docsify Themeable Documentation](https://jhildenbiddle.github.io/docsify-themeable/#/introduction)  
+[Docsify Themeable GitHub](https://github.com/jhildenbiddle/docsify-themeable)  
+
+**Markdown**  
+[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Guide](https://www.markdownguide.org/)  
