@@ -14,7 +14,7 @@
 Docsify Page             |  Standalone Docsify Page
 :-------------------------:|:-------------------------:
 ![](docsify-page.png)  |  ![](standalone-docsify-page.png)
-`https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-2`  |  `https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-2?standalone=true`
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02  |  https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?standalone=true
 
 🚀 GitHub Pages Quickstart
 ---
