@@ -1,22 +1,44 @@
-name: CI
+name: docsify-cli
 
 on:
   push:
-    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-  build-sidebar:
-    runs-on: ubuntu-latest
+  sidebar:
+    runs-on: "${{ matrix.os }}"
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [14.x]
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      - run: npm ci
-      - run: npm i docsify-tools
-        
-      - name: Make Sidebar
-        run: npm test
-        
-      - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          commit_message: Auto-updated Sidebar
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install docsify-cli
+        run: |
+          npm i docsify-cli -g
+
+      - name: Build sidebar
+        env:
+          DOCSIFY_BASEPATH: 'docs/'
+          DOCSIFY_SIDEBAR_FILENAEM: '_sidebar.md'
+        run: |
+          if [ -e "${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAEM}" ]; then
+            rm -rf ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAEM}
+          fi
+          docsify generate ${DOCSIFY_BASEPATH} --sidebar ${DOCSIFY_SIDEBAR_FILENAEM}
+          git status
+          cat ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAEM}
+
+#      - name: Commit
+#        uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          commit_message: Build Sidebar by docsify-cli
