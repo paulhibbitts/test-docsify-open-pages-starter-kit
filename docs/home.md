@@ -2,10 +2,10 @@
 
 > This is a starter kit to quickly create a collection of Markdown-based pages with the site generator [Docsify](https://docsify.js.org). Sidebar navigation items are automatically generated, and can be hidden for seamlessly embedding pages (i.e., into an LMS) or displaying only page content in the current Browser tab. Includes an optional "Edit this Page" link.
 
-🖼 Using your Docsify Page Content into Other Systems
+🖼 Using your Docsify Page Content in Other Systems
 ---  
 
-The optional ‘standalone’ (all lowercase) URL parameter hides a site’s sidebar and optional navbar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being displayed in an existing or new Browser tab.
+The optional ‘standalone’ (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being solely displayed in an existing or new Browser tab.
 
 To only display Docsify page content, add the following to a Docsify page URL:
 
