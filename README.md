@@ -11,7 +11,7 @@
 📸 Docsify Open Pages Screenshots
 ---
 ![ Docsify Open Pages Starter Kit](smartmockups_kyxbhkbh.png)
-_Figure 1. Docsify Open Pages Starter Kit. Explore a demo at [paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/](https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/)_
+_Figure 1. Docsify Open Pages Starter Kit, with a Docsify site page on the left, and a Docsfy standalone page on the right. Explore a demo at [paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/](https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/)_
 
 Docsify Page             |  Standalone Docsify Page
 :-------------------------:|:-------------------------:
