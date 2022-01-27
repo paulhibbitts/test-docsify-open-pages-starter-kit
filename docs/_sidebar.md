@@ -15,7 +15,6 @@
 - [module-10](module-10.md)
 - [module-11](module-11.md)
 - [module-12](module-12.md)
-- [module-13](module-13.md)
 - [resources](resources.md)
 - [schedule](schedule.md)
 - [topics](topics.md)
