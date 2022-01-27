@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
 
-> This is a starter kit to quickly create a collection of Markdown-based pages with the site generator [Docsify](https://docsify.js.org). Sidebar navigation can be hidden for seamlessly embedding pages (i.e., into an LMS) or displaying only page content into the current Browser tab. Includes an optional "Edit this Page" link.
+> This is a starter kit to quickly create a collection of Markdown-based pages with the site generator [Docsify](https://docsify.js.org). Sidebar navigation items are automatically generated, and can be hidden for seamlessly embedding pages (i.e., into an LMS) or displaying only page content into the current Browser tab. Includes an optional "Edit this Page" link.
 
 📸 Docsify Open Pages Screenshots
 ---
