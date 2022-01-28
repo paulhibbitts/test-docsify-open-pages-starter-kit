@@ -1,4 +1,4 @@
-# Docsify Open Pages Starter Kit
+# Welcome to Docsify Open Pages Starter Kit
 
 > This is a starter kit to quickly create a collection of Markdown-based pages with the site generator [Docsify](https://docsify.js.org). Sidebar navigation items are automatically generated, and can be hidden for seamlessly embedding pages (i.e., into an LMS) or displaying only page content in the current Browser tab. Includes an optional "Edit this Page" link.
 
