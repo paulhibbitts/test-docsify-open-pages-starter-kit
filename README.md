@@ -94,19 +94,19 @@ To only display Docsify page content, add the following to a Docsify page URL:
 
 `?standalone=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content (i.e., no sidebar or optional navbar is shown).
+For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content (i.e., no sidebar is shown).
 
 To optionally hide the 'Edit this Page' link, use the following:
 
 `?standalone=true&hidegitlink=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&hidegitlink=true would only display page content (i.e., no sidebar or optional navbar is shown) and also hide the 'Edit this Page' link.
+For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&hidegitlink=true would only display page content (i.e., no sidebar is shown) and also hide the 'Edit this Page' link.
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
 `?standalone=true&toc=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&toc=true would display a page Table of Contents on the right side of the page.
+For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&toc=true would display a page Table of Contents on the right side of the page.
 
 📚 Docsify and Markdown Resources
 ---
