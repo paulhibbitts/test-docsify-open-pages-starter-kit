@@ -71,7 +71,7 @@ aside.nav.nothing {
   .page_toc {
     position: relative;
     left: 0;
-    top: -20px;
+    top: -10px;
     padding: 10px 0;
     border: none;
     border-bottom: 1px solid #ddd;
@@ -86,7 +86,7 @@ aside.nav.nothing {
   }
   .page_toc p.title {
     font-weight: 300;
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   .content {
     display: block;
