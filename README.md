@@ -13,10 +13,10 @@
 ![ Docsify Open Pages Starter Kit](smartmockups_kyxbhkbh.png)
 _Figure 1. Docsify Open Pages Starter Kit, with a Docsify site page on the left, and a Docsfy standalone page on the right. Explore a demo at [paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/](https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/)_
 
-Docsify Page             |  Standalone Docsify Page
-:-------------------------:|:-------------------------:
-![](docsify-page.png)  |  ![](standalone-docsify-page.png)
-https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02  |  https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?standalone=true
+Docsify Page             |  Standalone Docsify Page |  Standalone Docsify Page
+:-------------------------:|:-------------------------:|:-------------------------:
+![](docsify-page.png)  |  ![](standalone-docsify-page.png) |  ![](toc-standalone-docsify-page.png)
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02  |  https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?standalone=true | https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?standalone=true&toc=true
 
 🚀 GitHub Pages Quickstart
 ---
