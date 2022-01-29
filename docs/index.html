@@ -136,6 +136,11 @@
               crossChapterText: true,
             },
 
+            toc: {
+              tocMaxLevel: 5,
+              target: 'h2, h3, h4, h5, h6'
+            },
+
           // CUSTOM PLUGINS
           // -----------------------------------------------------------------
           plugins: [
@@ -181,6 +186,8 @@
 
     <!-- Run External Scripts Plugin -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+
+    <script src="//unpkg.com/docsify-plugin-toc"></script>
 
     <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
