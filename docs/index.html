@@ -120,14 +120,14 @@
             homepage          : 'home.md',
             loadSidebar       : true,
             loadNavbar        : false,
-            externalLinkTarget: (returnByURLParameterByName('standalone','_top','_blank')),
+            externalLinkTarget: (returnByURLParameterByName('sidebar','_blank','_top')),
 
             // SIDEBAR NAVIGATION
             // -----------------------------------------------------------------
             auto2top   : true,
             maxLevel   : 3,
             subMaxLevel: 3,
-            hideSidebar: getURLParameterByName('standalone') === 'true',
+            hideSidebar: !(getURLParameterByName('sidebar') === 'true'),
 
             // PLUGIN SETTINGS
             // -----------------------------------------------------------------
