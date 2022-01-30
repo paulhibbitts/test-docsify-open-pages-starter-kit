@@ -13,10 +13,10 @@
 ![ Docsify Open Pages Starter Kit](smartmockups_kyxbhkbh.png)
 _Figure 1. Docsify Open Pages Starter Kit, with a Docsify site page on the left, and a Docsfy standalone page on the right. Explore a demo at [paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/](https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/)_
 
-Docsify Page with Sidebar        |  Standalone Docsify Page |  ToC Standalone Docsify Page
+Docsify Page             |  Standalone Docsify Page |  ToC Standalone Docsify Page
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](docsify-page.png)  |  ![](standalone-docsify-page.png) |  ![](toc-standalone-docsify-page.png)
-https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?sidebar=true  |  https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02 | https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?toc=true
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02  |  https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?standalone=true | https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/module-02?standalone=true&toc=true
 
 🚀 GitHub Pages Quickstart
 ---
@@ -88,23 +88,23 @@ You can also clone (i.e download) a copy of your repository to your computer and
 🖼 Using your Docsify Page Content in Other Systems
 ---  
 
-By default Docsify's standard Sidebar is hidden for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being solely displayed in an existing or new Browser tab.
+The optional ‘standalone’ (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being solely displayed in an existing or new Browser tab.
 
-To display Docsify's standard Sidebar, add the following to a Docsify page URL:
+To only display Docsify page content, add the following to a Docsify page URL:
 
-`?sidebar=true`
+`?standalone=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would only display page content (i.e., no sidebar) while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?sidebar=true would display a standard Docsify page with Sidebar.
+For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content (i.e., no sidebar is shown).
 
 To optionally hide the 'Edit this Page' link, use the following:
 
-`?hidegitlink=true`
+`?standalone=true&hidegitlink=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&hidegitlink=true would only display page content (i.e., no sidebar or optional navbar is shown) and also hide the 'Edit this Page' link.
+For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&hidegitlink=true would only display page content (i.e., no sidebar is shown) and also hide the 'Edit this Page' link.
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
-`?toc=true`
+`?standalone=true&toc=true`
 
 For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&toc=true would display a page Table of Contents on the right side of the page.
 
