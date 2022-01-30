@@ -25,6 +25,7 @@ jobs:
       - name: Install docsify-cli
         run: |
           npm i docsify-cli -g
+      - npm ci
       - name: Build sidebar
         env:
           DOCSIFY_BASEPATH: 'docs/'
