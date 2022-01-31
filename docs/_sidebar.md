@@ -9,6 +9,4 @@
 - [module-08](module-08.md)
 - [module-09](module-09.md)
 - [module-10](module-10.md)
-- [module-11](module-11.md)
-- [module-12](module-12.md)
 - [resources](resources.md)

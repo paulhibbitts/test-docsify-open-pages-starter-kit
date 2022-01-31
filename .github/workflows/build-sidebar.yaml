@@ -22,10 +22,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install
+      - name: Install docsify-cli
         run: |
-          npm ci
-
+          npm i docsify-cli -g
+      #   TODO: support use of `npm ci`
       - name: Build sidebar
         env:
           DOCSIFY_BASEPATH: 'docs/'
@@ -37,7 +37,6 @@ jobs:
           docsify generate ${DOCSIFY_BASEPATH} --sidebar ${DOCSIFY_SIDEBAR_FILENAME}
           git status
           cat ${DOCSIFY_BASEPATH}${DOCSIFY_SIDEBAR_FILENAME}
-
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
