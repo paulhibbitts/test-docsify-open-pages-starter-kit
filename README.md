@@ -85,7 +85,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
-🖼 Using your Docsify Page Content in Other Systems
+🖼 Using your Docsify Page Content with Other Systems
 ---  
 
 The optional ‘standalone’ (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being solely displayed in an existing or new Browser tab.
