@@ -107,14 +107,18 @@ To optionally show a page Table of Contents (based on included Headers), use the
 Example Docsify page displaying only page content:  
 https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true 
 
-Example Docsify page displaying only page content with a page Table of Contents included: 
+Example Docsify page displaying only page content with a page Table of Contents included:  
 https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&toc=true  
 
 To optionally hide the 'Edit this Page' link, use the following:
 
 `?standalone=true&hidegitlink=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&hidegitlink=true would only display page content (i.e., no sidebar is shown) and also hide the 'Edit this Page' link.
+Example Docsify page displaying only page content:  
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true  
+
+Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&hidegitlink=true  
 
 📚 Docsify and Markdown Resources
 ---
