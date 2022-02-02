@@ -94,7 +94,11 @@ To only display Docsify page content, add the following to a Docsify page URL:
 
 `?standalone=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources would display a standard Docsify page while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content (i.e., no sidebar is shown).
+Example standard Docsify page:  
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources. 
+
+Example Docsify page displaying only page content (i.e., no sidebar is shown):  
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true.
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
