@@ -95,16 +95,20 @@ To only display Docsify page content, add the following to a Docsify page URL:
 `?standalone=true`
 
 Example standard Docsify page:  
-https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources. 
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources 
 
 Example Docsify page displaying only page content (i.e., no sidebar is shown):  
-https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true.
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
 `?standalone=true&toc=true`
 
-For example, https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true would only display page content while https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&toc=true would display a page Table of Contents on the right side of the page.
+Example Docsify page displaying only page content:  
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true 
+
+Example Docsify page displaying only page content with a page Table of Contents included: 
+https://paulhibbitts.github.io/test-docsify-open-pages-starter-kit/#/resources?standalone=true&toc=true  
 
 To optionally hide the 'Edit this Page' link, use the following:
 
